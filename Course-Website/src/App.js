@@ -44,9 +44,9 @@ const App = () => {
       <Navbar/>
 
       </div>
-      
-<div>
-<div>
+
+      <div className="bg-bgDark2 "> 
+      <div>
 
       
 <Filter
@@ -61,11 +61,16 @@ const App = () => {
 
  </div>
 
+      </div>
+      
+
+
+
 </div>
       
      
       
-    </div>
+    
 
   );
 };
