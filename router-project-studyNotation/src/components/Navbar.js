@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 
 const Navbar = (props) => {
     let isLoggedIn = props.isLoggedIn;
-    let setisLoggedIn = props.setisLoggedIn;
+    let setIsLoggedIn = props.setIsLoggedIn;
   return (
     <div className='flex justify-evenly'>
 
@@ -58,7 +58,7 @@ const Navbar = (props) => {
             <Link to="/">
                 {/* logout hone k bad home p jate islie / */}
                <button onClick={() => { 
-                  setisLoggedIn(false);
+                  setIsLoggedIn(false);
                   toast.success("Logged Out");
                   
                   

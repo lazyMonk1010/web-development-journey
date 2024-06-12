@@ -1,8 +1,9 @@
 // same contact vala content
 import React from 'react'
 import frameImage from "../assets/frame.png"
-
-const Template = (title , desc1 , desc2, image , formtype , setisLoggedIn) => {
+import SignupForm from './SignupForm'
+import LoginForm from './LoginForm'
+const Template = ({title , desc1 , desc2, image , formtype , setIsLoggedIn}) => {
   return (
     <div>
 
@@ -15,8 +16,8 @@ const Template = (title , desc1 , desc2, image , formtype , setisLoggedIn) => {
             </p>
 
              {formtype === "signup" ?
-             (<SignupForm/>):
-            (<LoginForm/>)}
+             (<SignupForm setIsLoggedIn={setIsLoggedIn}/>):
+            (<LoginForm setIsLoggedIn={setIsLoggedIn}/>)}
 
             <div>
                 {/* line k lie */}
