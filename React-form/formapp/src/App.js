@@ -29,8 +29,9 @@ function App() {
   // }
   //for multiple states we have created object
   //formData nam ka state variable jisme data srore hinga
+  
 
-  const[formData , setFormData] = useState ( {firstName: "", lastName: "" , email:"",comments:"", isVisible: true , mode:"", favCar:""});
+ const[formData , setFormData] = useState ( {firstName: "", lastName: "" , email:"",comments:"", isVisible: true , mode:"", favCar:""});
    
 // new state k andr value dal deta hai , is change handler s form data k values ko updated rkhna pdega
   function changeHandler(event){
