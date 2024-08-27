@@ -16,4 +16,5 @@ This repository is the collection of various Javascript and React projects that 
 3. Plan With Love (travel site)
 4. Course Website
 5. Testimonial Site
+6. Blog-Website
    
